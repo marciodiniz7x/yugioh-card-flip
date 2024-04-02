@@ -44,12 +44,6 @@ const criarCard = (monster) => {
 
 const loadDeck = () => {
 
-    // const doubleDeck = [ ...deck, ...deck ];
-
-    // const espalhaArray = doubleDeck.sort(() => Math.random() - 0.5);
-
-    
-
     deck.forEach(monster => {
 
         let card = criarCard(monster);
